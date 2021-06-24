@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converting Temperature</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 >Converting Temperature </h1>
+<br>
+
+<p>
+    <label>Centigrade</label>
+   <input id="input number" type="number" placeholder="Type Temperature in Centigrade" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+</p>
+<p>Fahrenheit: <span id="outputFahrenheit"></span></p><br><br>
+
+<p>
+    <label>Fahrenheit</label>
+    <input id="input number" type="number" placeholder="Type Temperature in Fahrenheit" oninput="temperatureConverter2(this.value)" onchange="temperatureConverter2(this.value)">
+</p>
+  <p>Centigrade: <span id="outputCelcius"></span></p>
+<script src="app.js"></script>
+
+</body>
+</html>

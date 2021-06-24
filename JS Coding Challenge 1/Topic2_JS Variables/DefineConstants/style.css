@@ -1,0 +1,14 @@
+body{
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+     }
+     h2 {
+      font-family: 'Times New Roman', Times, serif;
+      text-align: justify;
+      color: darkmagenta;
+    }
+     
